@@ -1,1 +1,1 @@
-"# stragetygame" 
+"# strategygame" 
