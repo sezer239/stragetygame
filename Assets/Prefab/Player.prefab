@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7394747790987392018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7394747790987392020}
+  - component: {fileID: 7394747790987392021}
+  - component: {fileID: 7394747790987392023}
+  - component: {fileID: 7394747790987392022}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7394747790987392020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7394747790987392018}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7394747790987392021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7394747790987392018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ec3894324da5642a896009b8b537ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleRunButt: {fileID: 0}
+  dropItemButt: {fileID: 0}
+  openInventoryButt: {fileID: 0}
+  waypointPrefab: {fileID: 0}
+  lineRenderer: {fileID: 0}
+--- !u!114 &7394747790987392023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7394747790987392018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e50e43808ac7be4b823d20b18507c72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canvas: {fileID: 0}
+  selectionBox: {fileID: 0}
+  copyKey: 306
+--- !u!114 &7394747790987392022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7394747790987392018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b41c74eaf293594ebf2aac5aa2a16a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GotoJobUIButton: {fileID: 6835209365498182635, guid: 0b322bc63b06ade48b69ccbf235e5783,
+    type: 3}
+  HaltJobUIButton: {fileID: 2764770331562417164, guid: ade5f6d8ffde8e447a28fd3b514a612c,
+    type: 3}
+  ItemPickupJobUIButton: {fileID: 2558688281204562608, guid: dadceb22efb60a8419d9fb4bc1fd5c13,
+    type: 3}
+  ItemDropJobUIButton: {fileID: 3696107916342895809, guid: 10ccf2897d310474d8fd2a829bce43ad,
+    type: 3}
+  ItemReceiveJobUIButton: {fileID: 4674432221135409687, guid: 1703dbeef36b3264fb9cf86a237ed94d,
+    type: 3}
+  ItemTransferJobUIButton: {fileID: 5322928938986819258, guid: f3c74c0a8e0a8644ea7c40b61cc43084,
+    type: 3}
+  MoveJobUIButton: {fileID: 4965350466197613639, guid: e60d4cae42b141a4b8b6c4db55516814,
+    type: 3}
+  WoodCutUIButton: {fileID: 5900732085292768474, guid: 18e75cc417d5f31438b10d95205a5ec1,
+    type: 3}
+  DefaultJobUIButton: {fileID: 4965350466197613639, guid: e60d4cae42b141a4b8b6c4db55516814,
+    type: 3}
+  StoneCutUIButton: {fileID: 5517709553043303704, guid: c941b337e7afabe4091268a9d942741b,
+    type: 3}
+  OrderJobtUIButton: {fileID: 8692220205283636828, guid: f34a8000d9b3f154196285cb8288b42e,
+    type: 3}
+  ReportBackJobtUIButton: {fileID: 3702489088098412869, guid: 2bf6a478363064e4597968a0d25ec5a3,
+    type: 3}
+  ExamineJobtUIButton: {fileID: 2969214509199726157, guid: f69b33d972f776148b3f0a7655bd42ac,
+    type: 3}
+  ActionJobtUIButton: {fileID: 90850848086646117, guid: 3b4dd399dfeed2c48afb4e4c1ad47327,
+    type: 3}
+  UIJobQueueSpawn: {fileID: 0}
